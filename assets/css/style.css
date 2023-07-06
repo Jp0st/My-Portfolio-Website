@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+header h1{
+    display: inline-block;
+    padding:15px;
+}
+
+.header nav{
+    padding-top:15px;
+    margin-right: 20px;
+    float:right;
+
+}
+
+header ul {
+    padding-top:15px;
+    margin-left: 20px;
+    list-style-type: none;
+}
+
+header ul li {
+    display:inline-block;
+    margin-left: 25px;
+}
+
+h1{
+    color:brown;
+}
+
+main{
+    display: flex;
+}
