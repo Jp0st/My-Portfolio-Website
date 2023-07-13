@@ -3,20 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>John Post's Portfolio</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
 <body>
-    <header class="header">
+
+    <!--Site Header and Navigation links-->
+    <header class= "header">
         <h1>John Post</h1>
-        <nav>
+       
+        <nav class = "nav-links">
             <ul>
-                <li><a>Test 1</a></li>
-                <li><a>Test 2</a></li>
-                <li>Test 3</li>
+                <li> <a href= "#about-me-section">About Me</a></li>
+                <li> <a href = "#work-section">Work Examples</a></li>
+                <li> <a href = "#contacts-section">Contact</a></li>
             </ul>
         </nav>
     </header>
+
+    <main>
+
+        <!--About me section with profile picture and banner-->
+        <section class = "about-me" id="about-me-section">
+            <img id = "profile-picture" src = "./assets/images/profile-picture.jpg" alt = "Profile Picture">
+            <h2>Who am I?</h2>
+            <p>I'm a 27 year old learning the world of Web Development,</p>
+            <p>while doing my best to keep up and create nice projects.</p>
+        </section>
+
+        <!--Links to different projects worked on with background exmaple images-->
+        <section class = "work-content" id ="work-section">
+            <h2>Work</h2>
+            <content class = "projects">
+                <section class = "project" id="project-1">
+                    <a href = "#" class = "project-button">
+                        <h3>Project 1</h3>
+                        <div>Project 1 caption.</div>
+                    </a>
+                </section>
+            
+                <section class = "project" id="project-2">
+                    <a href = "#" class = "project-button">
+                        <h3>Project 2</h3>
+                        <caption>Project 2 caption.</caption>
+                    </a>
+                </section>
+
+                <section class = "project" id="project-3">
+                    <a href = "#" class = "project-button">
+                        <h3>Project 3</h3>
+                        <caption>Project 3 caption.</caption>
+                    </a>
+                </section>
+
+                <section class = "project" id = "project-4">
+                    <a href = "#" class = "project-button">
+                        <h3>Project 4</h3>
+                        <caption>Project 4 caption.</caption>
+                    </a>
+                </section>
+
+                <section class = "project" id = "project-5">
+                    <a href = "#" class = "project-button">
+                        <h3>Project 5</h3>
+                        <caption>Project 5 caption.</caption>
+                    </a>
+                </section>
+            </content>  
+
+        </section>
+
+        <!--Contact me section with external links as well as contant info.-->
+        <footer class = "contacts" id="contacts-section">
+            <h2>Contact Me:</h2>
+            <ul>
+                <li> <a href = "https://github.com/Jp0st">Github</a></li>
+                <li> <a href = "#">Link 2</a></li>
+                <li>973-809-7306</li>
+                <li>Jpost2010@gmail.com</li>
+            </ul>
+        </footer>
+    
+    </main>
 </body>
 </html>
