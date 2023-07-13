@@ -5,6 +5,10 @@
     font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+:root{
+    --textColor: rgb(43,47,59);
+}
+
 body{
     background-color: rgb(220,227,219);
 }
@@ -14,7 +18,7 @@ header{
     justify-content: flex-start;
     text-align: center;
     padding: 5px;
-    color:rgb(43,47,59);
+    color:var(--textColor);
 }
 
 h1{
@@ -38,7 +42,7 @@ h1{
 .nav-links li a{
     text-decoration: none;
     padding:0px 15px 0px 15px; 
-    color:rgb(43,47,59);
+    color:var(--textColor);
     font-size:18px;
 }
 
@@ -53,7 +57,7 @@ h1{
 .about-me{
     text-align: center;
     justify-content: center;
-    background-color:rgb(43,47,59);
+    background-color:var(--textColor);
     color:rgb(218,187,185);
     padding-bottom: 10px;
 }
@@ -72,7 +76,7 @@ h1{
     margin-left:50px;
     padding-right:20px;
     border-right: 3px solid rgb(11,92,76);
-    color:rgb(43,47,59);
+    color:var(--textColor);
     padding-top: 25px;
 }
 
@@ -99,7 +103,7 @@ h1{
 
 .project:hover{
     opacity: 80%;
-    box-shadow: 5px 5px rgb(43,47,59);
+    box-shadow: 5px 5px var(--textColor);
 }
 
 .project-button{
@@ -108,9 +112,9 @@ h1{
     bottom: 40px;
     position: absolute;
     border-style: solid;
-    border-width:2px;
+    border-width:10px;
     text-decoration: none;
-    color:rgb(43,47,59);
+    color:var(--textColor);
     border-radius: 0px 10px 10px 0px;
 }
 
@@ -169,7 +173,7 @@ footer li{
 
 footer li a{
     text-decoration: none;
-    color:rgb(43,47,59);
+    color:var(--textColor);
 }
 
 
