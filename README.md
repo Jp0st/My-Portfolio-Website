@@ -17,7 +17,7 @@ The navigation bar in the top right links to the different areas of the page and
 
 ## Credits
 
-N/A
+Tutoring session with Alexis San Javier to solve some flexbox issues.
 
 ## License
 
